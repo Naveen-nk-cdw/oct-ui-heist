@@ -1,0 +1,14 @@
+.imageChannel{
+    width: 100%;
+    height: 100%;
+    &.blurred{
+        filter: blur(10px);
+    }
+}
+.videoChannel{
+    width: 100%;
+    height: 100%;
+    &.blurred{
+        filter: blur(25px);
+    }
+}

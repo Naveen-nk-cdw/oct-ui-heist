@@ -1,0 +1,23 @@
+.controller{
+    display: flex;
+    flex-flow: column;
+    background: #fff;
+    align-items: center;
+    width: 2rem;
+    height: 8rem;
+    justify-content: space-around;
+    padding: 0.5rem;
+    color: #c6c7c8;
+    font-size: 1.2rem;
+    border: solid 1px #c6c7c8;   
+    .title{
+        text-transform: uppercase;
+        cursor: default;
+    }
+    .plus ,.minus{
+        font-size: 1.7rem;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+}
